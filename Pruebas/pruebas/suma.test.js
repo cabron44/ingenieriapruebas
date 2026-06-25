@@ -6,7 +6,7 @@ describe('Pruebas de suma', () => {
   test.each([
     [2, 3, 5],
     [10, 20, 30],
-    [-40, -20, -60]
+    [-40, -30, -70]
   ])('%i + %i = %i', (a, b, esperado) => {
     expect(suma(a, b)).toBe(esperado);
   });
